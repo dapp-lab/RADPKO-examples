@@ -2,7 +2,7 @@ library(tidyverse)
 library(gganimate)
 
 ## load RADPKO data
-radpko <- read_csv('radpko_bases.csv')
+radpko <- read_csv('radpko_bases_cc.csv')
 
 ## create time-series animation
 ts_gg <- radpko %>%
